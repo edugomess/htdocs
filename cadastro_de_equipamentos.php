@@ -174,11 +174,10 @@
                         <div class="col-sm-12 col-xl-2 offset-xl-1">
                             <div class="form-group"><label>Categoria</label><select class="form-control" required="">
                                     <optgroup label="Categoria">
-                                        <option value="12" selected="">Mecânica</option>
-                                        <option value="13">Acabamento</option>
-                                        <option value="14">Arrefecimento</option>
-                                        <option value="">Óleos</option>
-                                        <option value="">Performance</option>
+                                        <option value="12" selected="">Impressora</option>
+                                        <option value="13">Computador</option>
+                                        <option value="14">Ramal</option>
+                                        <option value="">Periférico</option>
                                     </optgroup>
                                 </select></div>
                         </div>

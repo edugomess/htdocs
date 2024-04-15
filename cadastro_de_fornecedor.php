@@ -185,7 +185,7 @@
                                 <div class="form-group"><label></label><input class="form-control" type="email" placeholder="E-mail"></div>
                             </div>
                             <div class="col-xl-3 offset-xl-1">
-                                <div class="form-group"><label></label><input class="form-control" type="tel" placeholder="Telefone"></div>
+                                <div class="form-group"><label></label><input class="form-control" type="tel" placeholder="Telefone (99) 99999-9999"></div>
                             </div>
                             <div class="col-sm-2 offset-xl-0">
                                 <div class="form-group"><label></label></div>
@@ -194,31 +194,18 @@
                         <!-- Start: 4-column form row -->
                         <div class="form-row">
                             <div class="col-sm-3 col-xl-3 offset-xl-1">
-                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Endereço"></div>
+                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Serviço"></div>
                             </div>
                             <div class="col-sm-3 col-xl-1">
-                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Nº"></div>
+                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar"></div>
                             </div>
                             <div class="col-sm-3 col-xl-3">
-                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Cidade"></div>
+                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar"></div>
                             </div>
                             <div class="col-xl-1"><select class="form-control" style="margin: 23px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;" required="">
-                                    <optgroup label="Estado">
-                                        <option value="12">SP</option>
-                                        <option value="13">RJ</option>
-                                        <option value="">MG</option>
-                                        <option value="">SC</option>
-                                        <option value="">RS</option>
-                                        <option value="">MT</option>
-                                        <option value="">GO</option>
-                                        <option value="">DF</option>
-                                        <option value="">AL</option>
-                                        <option value="">PE</option>
-                                        <option value="">MA</option>
-                                        <option value="">AM</option>
-                                        <option value="">PA</option>
-                                        <option value="">RO</option>
-                                        <option value="">RM</option>
+                                    <optgroup label="Situação">
+                                        <option value="">Ativo</option>
+                                        <option value="">Inativo</option>
                                     </optgroup>
                                 </select></div>
                         </div><!-- End: 4-column form row -->

@@ -172,34 +172,38 @@
                     <!-- Start: 2-column form row -->
                     <div class="form-row">
                         <div class="col-sm-6 col-xl-3 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Nome"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Código"></div>
                         </div>
                         <div class="col-sm-6 col-xl-3 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Sobrenome"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Setor"></div>
                         </div>
                         <div class="col-sm-4 col-xl-2 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="CPF"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar"></div>
                         </div>
                     </div><!-- End: 2-column form row -->
                     <!-- Start: 3-column form row -->
                     <div class="form-row">
                         <div class="col-sm-4 col-xl-3 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="email" placeholder="E-mail"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="email" placeholder="Gestor"></div>
                         </div>
                         <div class="col-xl-2 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="tel" placeholder="Telefone"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="tel" placeholder="Ramal"></div>
                         </div>
                         <div class="col-xl-2">
                             <div class="input-group mb-4">
-                                <div class="input-group-prepend"></div><input class="form-control" type="text" id="datePicker" placeholder="Data de nascimento" style="border-radius: 5.6px;margin-top: 24px;">
+                                <div class="input-group-prepend"></div><input class="form-control" type="text" id="datePicker" placeholder="Mudar" style="border-radius: 5.6px;margin-top: 24px;">
                             </div>
                         </div>
                         <div class="col-sm-2 offset-xl-0">
                             <div class="form-group"><label></label><select class="form-control">
-                                    <optgroup label="Sexo">
-                                        <option value="12" selected="">Masculino</option>
-                                        <option value="13">Feminino</option>
-                                        <option value="14">Outro</option>
+                                    <optgroup label="Unidade">
+                                    <option value="" selected="">FLMA</option>
+                                    <option value="">IRSSL</option>
+                                    <option value="">HGG</option>
+                                    <option value="">HMJ</option>
+                                    <option value="">HRJ</option>
+                                    <option value="">HMIMJ</option>
+                                    <option value="">HRR</option>
                                     </optgroup>
                                 </select></div>
                         </div>
@@ -207,33 +211,20 @@
                     <!-- Start: 4-column form row -->
                     <div class="form-row">
                         <div class="col-sm-3 col-xl-4 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Endereço"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="E-mail do Gestor"></div>
                         </div>
                         <div class="col-sm-3 col-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Nº"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar"></div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Cidade"></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar"></div>
                         </div>
                         <div class="col-sm-4 col-xl-2" style="margin-top: 23px;">
                             <!-- Start: Date Range Picker -->
                             <div class="form-group"><select class="form-control" style="margin: 23px,0px;" required="">
-                                    <optgroup label="Estado">
-                                        <option value="12">SP</option>
-                                        <option value="13">RJ</option>
-                                        <option value="">MG</option>
-                                        <option value="">SC</option>
-                                        <option value="">RS</option>
-                                        <option value="">MT</option>
-                                        <option value="">GO</option>
-                                        <option value="">DF</option>
-                                        <option value="">AL</option>
-                                        <option value="">PE</option>
-                                        <option value="">MA</option>
-                                        <option value="">AM</option>
-                                        <option value="">PA</option>
-                                        <option value="">RO</option>
-                                        <option value="">RM</option>
+                                    <optgroup label="Situação">
+                                        <option value="">Ativo</option>
+                                        <option value="">Inativo</option>
                                     </optgroup>
                                 </select></div><!-- End: Date Range Picker -->
                         </div>

@@ -183,7 +183,7 @@
                         <div class="col-xl-3">
                             <div class="form-group"><label></label><input class="form-control" name="dataDeNascimento" type="text" id="datePicker" placeholder="Data de nascimento" style="height: 40px;padding: 6px;padding-right: 36px;max-height: 38px;" required=""></div>
                         </div>
-                        <div class="col-xl-3 offset-xl-0"><span></span><input class="form-control" name="Matricula" type="text" placeholder="Matricula" inputmode="tel" required="" style="margin-top: 24px;"></div>
+                        <div class="col-xl-3 offset-xl-0"><span></span><input class="form-control" name="E-Mail" type="text" placeholder="E-Mail" inputmode="email" required="" style="margin-top: 24px;"></div>
                         <div class="col-sm-4 col-xl-1 offset-lg-1 offset-xl-0">
                             <div class="form-group"><label></label></div>
                         </div>
@@ -194,28 +194,16 @@
                             <div class="form-group"><label></label><input class="form-control" name="Centro de Custo" type="text" placeholder="Centro de Custo" required=""></div>
                         </div>
                         <div class="col-xl-1 offset-lg-1 offset-xl-0">
-                            <div class="form-group"><label></label><input class="form-control"  name="numero" type="text" placeholder="Nº" inputmode="numeric" required=""></div>
+                            <div class="form-group"><label></label><input class="form-control"  name="Matricula" type="text" placeholder="Matricula" inputmode="numeric" required=""></div>
                         </div>
                         <div class="col-xl-3">
-                            <div class="form-group"><label></label><input class="form-control"  name="cidade" type="text" placeholder="Cidade" required=""></div>
+                            <div class="form-group"><label></label><input class="form-control"  name="Telefone" type="text" placeholder="Telefone (99) 99999-9999" required=""></div>
                         </div>
                         <div class="col-xl-2" style="margin-top: 23px;"><select class="form-control"  name="estado" style="margin: 23px,0px;" required="">
-                                <optgroup label="Estado">
-                                    <option value="">SP</option>
-                                    <option value="">RJ</option>
-                                    <option value="">MG</option>
-                                    <option value="">SC</option>
-                                    <option value="">RS</option>
-                                    <option value="">MT</option>
-                                    <option value="">GO</option>
-                                    <option value="">DF</option>
-                                    <option value="">AL</option>
-                                    <option value="">PE</option>
-                                    <option value="">MA</option>
-                                    <option value="">AM</option>
-                                    <option value="">PA</option>
-                                    <option value="">RO</option>
-                                    <option value="">RM</option>
+                                <optgroup label="Tipo de Contrato">
+                                    <option value="">CLT</option>
+                                    <option value="">PJ</option>
+                                    <option value="">Cooperativa</option>
                                 </optgroup>
                             </select></div>
                     </div><!-- End: 3-column form row -->
@@ -233,21 +221,25 @@
                         <div class="col-xl-3 offset-xl-1"><label>Função</label><select class="form-control"  name="funcao" required="" style="margin: 23px,0px,0px,0px;">
                                 <optgroup label="Função">
                                     <option value="12" selected="">Administrador</option>
-                                    <option value="13" selected="">Vendedor</option>
-                                    <option value="14">Estoquista</option>
+                                    <option value="13" selected="">Suporte</option>
+                                    <option value="14">Usuário</option>
                                 </optgroup>
                             </select></div>
-                        <div class="col-xl-3 offset-xl-1"><label>Sexo</label><select class="form-control"  name="sexo" style="margin: 23px,0px,0px,0px;" required="">
-                                <optgroup label="Sexo">
-                                    <option value="12" selected="">Masculino</option>
-                                    <option value="13">Feminino</option>
-                                    <option value="14">Outro</option>
+                        <div class="col-xl-3 offset-xl-1"><label>Unidade</label><select class="form-control"  name="Unidade" style="margin: 23px,0px,0px,0px;" required="">
+                                <optgroup label="Unidade">
+                                    <option value="" selected="">FLMA</option>
+                                    <option value="">IRSSL</option>
+                                    <option value="">HGG</option>
+                                    <option value="">HMJ</option>
+                                    <option value="">HRJ</option>
+                                    <option value="">HMIMJ</option>
+                                    <option value="">HRR</option>
                                 </optgroup>
                             </select></div>
                         <div class="col-sm-3 col-xl-2 offset-xl-1"><label>Situação</label><select class="form-control"  name="situacao" style="margin: 23px,0px;" required="">
                                 <optgroup label="Situação">
-                                    <option value="12" selected="">Ativo</option>
-                                    <option value="13">Intativo</option>
+                                    <option value="" selected="">Ativo</option>
+                                    <option value="">Intativo</option>
                                 </optgroup>
                             </select></div>
                     </div><!-- End: 4-column form row -->
