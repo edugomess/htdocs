@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html style="margin-bottom: 0px;margin-top: 0px;">
+<html style="margin: 0px, 0px, 0px;margin-bottom: 0px;margin-top: 0px;">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Blank Page - Brand</title>
-    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/1.gif?h=a002dd0d4fa7f57eb26a5036bc012b90">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=ab31356e4f631a0a7556d48e827f1a2e">
-    <link rel="stylesheet" href="/assets/css/Montserrat.css?h=2fbfaadd1b3a8788aae69992363f994b">
-    <link rel="stylesheet" href="/assets/css/Nunito.css?h=acb564fee2af37275d90d22a53249489">
-    <link rel="stylesheet" href="/assets/css/Raleway.css?h=78d767d2c02420f5f2582c9908b00d3d">
-    <link rel="stylesheet" href="/assets/css/Roboto.css?h=b38528c99809ba193f587f296d40fc27">
+    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
+    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
+    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
+    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
+    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=3265483e434712d72c41db9eebc4c8bb">
+    <link rel="stylesheet" href="/assets/css/Montserrat.css?h=d6a29779d310462e7fcdde7b9a80e0db">
+    <link rel="stylesheet" href="/assets/css/Nunito.css?h=5f41e73f827c7b56616237a1da13b6e2">
+    <link rel="stylesheet" href="/assets/css/Raleway.css?h=19488c1c6619bc9bd5c02de5f7ffbfd4">
+    <link rel="stylesheet" href="/assets/css/Roboto.css?h=193916adb9d7af47fe74d9a2270caac3">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css?h=a0e894d2f295b40fda5171460781b200">
@@ -45,24 +49,15 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="/index.php"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a><a class="nav-link" href="/inicio.php"><i class="fa fa-money"></i><span>Início</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="/index.php"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/inicio.php"><i class="fa fa-money"></i><span>Início</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="/usuários.php"><i class="fas fa-table"></i><span>Usuários</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="/centro_de_custo.php"><i class="fas fa-table"></i><span>Centro de Custo</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="/fornecedores.php"><i class="fas fa-table"></i><span>Fornecedores</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/equipamentos.php"><i class="fas fa-table"></i><span>Equipamentos</span></a><a class="nav-link" href="/relatorios.php"><i class="fa fa-list"></i><span>Relatórios</span></a><a class="nav-link" href="/suporte.php"><i class="fa fa-support"></i><span>Suporte</span></a><a class="nav-link" href="/login.html"><i class="far fa-user-circle"></i><span>Login</span></a></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="/equipamentos.php"><i class="fas fa-table"></i><span>Equipamentos</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/relatorios.php"><i class="fa fa-list"></i><span>Relatórios</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/suporte.php"><i class="fa fa-support"></i><span>Suporte</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/login.php"><i class="far fa-user-circle"></i><span>Login</span></a></li>
                 </ul>
                 <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
             </div>
@@ -166,7 +161,7 @@
                     </div>
                 </nav>
                 <div class="container-fluid">
-                    <h3 class="text-dark mb-1">Cadastro de Equipamentos</h3>
+                    <h3 class="text-dark mb-1">Cadastro de Equipameto</h3>
                 </div><!-- Start: Multi-row Form -->
                 <form>
                     <!-- Start: 1-column form row -->
@@ -174,62 +169,53 @@
                         <div class="col-sm-12 col-xl-2 offset-xl-1">
                             <div class="form-group"><label>Categoria</label><select class="form-control" required="">
                                     <optgroup label="Categoria">
-                                        <option value="12" selected="">Impressora</option>
-                                        <option value="13">Computador</option>
-                                        <option value="14">Ramal</option>
-                                        <option value="">Periférico</option>
+                                        <option value="" selected="">Desktop</option>
+                                        <option value="">Notebook</option>
+                                        <option value="">Monitor</option>
+                                        <option value="">Teclado</option>
+                                        <option value="">Mouse</option>
+                                        <option value="">Totem</option>
+                                        <option value="">Impressora</option>
+                                        <option value="">Multifuncional</option>
+                                        <option value="">Telefone</option>
+                                        <option value="">Etiquetadora</option>
                                     </optgroup>
                                 </select></div>
+                        </div>
+                        <div class="col-sm-6 col-xl-6 offset-xl-1">
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Fabricante" required=""></div>
                         </div>
                     </div><!-- End: 1-column form row -->
                     <!-- Start: 2-column form row -->
                     <div class="form-row">
                         <div class="col-sm-6 col-xl-4 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Produto" required=""></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Modelo" required=""></div>
                         </div>
-                        <div class="col-sm-6 col-xl-4 offset-xl-1"></div>
                         <div class="col-sm-6 col-xl-4 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Fabricante" required=""></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Identificador" required=""></div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4 offset-xl-1">
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Host Name" required=""></div>
+                        </div>
+                        <div class="col-sm-6 col-xl-4 offset-xl-1">
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="IP" required=""></div>
                         </div>
                     </div><!-- End: 2-column form row -->
                     <!-- Start: 3-column form row -->
                     <div class="form-row" style="height: 80px;">
                         <div class="col-sm-4 col-xl-2 offset-xl-1">
-                            <div class="form-group"><input class="form-control" type="text" placeholder="Modelo" required="" style="margin-top: 24px;"></div>
+                            <div class="form-group"><input class="form-control" type="text" placeholder="Mudar" required="" style="margin-top: 24px;"></div>
                         </div>
                         <div class="col-sm-4 col-xl-1"><select class="form-control" required="" style="margin-top: 24px;">
-                                <optgroup label="Ano">
-                                    <option value="" selected="CC">Centro de Custo</option>
-                                    <option value="">1996</option>
-                                    <option value="">1997</option>
-                                    <option value="">1998</option>
-                                    <option value="">1999</option>
-                                    <option value="">2000</option>
-                                    <option value="">2001</option>
-                                    <option value="">2002</option>
-                                    <option value="">2003</option>
-                                    <option value="">2004</option>
-                                    <option value="">2005</option>
-                                    <option value="">2007</option>
-                                    <option value="">2008</option>
-                                    <option value="">2009</option>
-                                    <option value="">2010</option>
-                                    <option value="">2011</option>
-                                    <option value="">2012</option>
-                                    <option value="">2013</option>
-                                    <option value="">2014</option>
-                                    <option value="">2015</option>
-                                    <option value="">2016</option>
-                                    <option value="">2017</option>
-                                    <option value="">2018</option>
-                                    <option value="">2019</option>
-                                    <option value="">2020</option>
-                                    <option value="">2021</option>
-                                    <option value="">2022</option>
-                                    <option value=""></option>
+                                <optgroup label="Situação">
+                                    <option value="" selected="">Ativo</option>
+                                    <option value="">Inativo</option>
                                 </optgroup>
                             </select></div>
-                        <div class="col-xl-1"><input class="form-control" type="number" placeholder="Qntd." min="0" max="999999999" required="" style="margin-top: 24px;"></div>
+                        <div class="col-xl-1"><input class="form-control" type="number" placeholder="Mudar" min="0" max="999999999" required="" style="margin-top: 24px;"></div>
+                        <div class="col-sm-6 col-xl-4 offset-xl-1">
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar" required=""></div>
+                        </div>
                     </div><!-- End: 3-column form row -->
                     <!-- Start: 3-column form row -->
                     <div class="form-row" style="height: 80px;">
@@ -237,15 +223,18 @@
                     </div><!-- End: 3-column form row -->
                     <!-- Start: 4-column form row -->
                     <div class="form-row">
-                        <div class="col-sm-3 col-xl-4 offset-xl-1"><textarea class="form-control" placeholder="Descrição..." style="height: 100px;margin-top: 10px;"></textarea></div>
+                        <div class="col-sm-3 col-xl-9 offset-xl-1" style="height: 200px;"><textarea class="form-control" placeholder="Descrição..." style="height: 100px;margin-top: 10px; margin-bottom: 0px;"></textarea></div>
                         <div class="col-xl-4 offset-xl-4"><button class="btn btn-success btn-block active text-white pulse animated btn-user" type="submit" style="background: rgb(44,64,74);border-radius: 10px;padding: 30px, 30px;border-width: 0px;height: 50px;margin-top: 50px;">Cadastrar</button></div>
                     </div><!-- End: 4-column form row -->
                 </form><!-- End: Multi-row Form -->
                 <!-- Start: Simple footer by krissy -->
-                <section class="text-center footer" style="margin-top: 70px;background: rgb(34,40,39);">
+                <footer class="bg-white sticky-footer" style="background: rgb(34,40,39);padding: 0;">
+                <!-- Start: Simple footer by krissy -->
+                <section class="text-center footer" style="padding: 10px;margin-top: 70px;">
                     <!-- Start: Footer text -->
-                    <p style="margin-bottom: 0px;font-size: 15px;">DEGB&nbsp;Copyright © 2015-2024&nbsp;<br></p><!-- End: Footer text -->
+                    <p style="margin-bottom: 0px;font-size: 15px;">DEGB&nbsp;Copyright © 2015-2024<br></p><!-- End: Footer text -->
                 </section><!-- End: Simple footer by krissy -->
+            </footer>
             </div>
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
     </div>
