@@ -45,17 +45,6 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="/index.php"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a><a class="nav-link" href="/inicio.php"><i class="fa fa-money"></i><span>Início</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="/usuários.php"><i class="fas fa-table"></i><span>Usuários</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="/centro_de_custo.php"><i class="fas fa-table"></i><span>Centro de Custo</span></a></li>
@@ -158,7 +147,7 @@
                             <li class="nav-item dropdown no-arrow">
                                 <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Eduardo Gomes</span><img class="border rounded-circle img-profile" src="/assets/img/avatars/Captura%20de%20Tela%202021-08-04%20às%2012.25.13.png?h=fcfb924f0ac1ab5f595f029bf526e62d"></a>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>Perfil</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>Configuraçoes</a><a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>Desativar conta</a>
-                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Sair</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="login.php"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Sair</a>
                                     </div>
                                 </div>
                             </li>
@@ -173,7 +162,7 @@
                         <!-- Start: 2-column form row -->
                         <div class="form-row">
                             <div class="col-sm-6 col-xl-4 offset-xl-1">
-                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Nome"></div>
+                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Nome da Empresa"></div>
                             </div>
                             <div class="col-sm-4 col-xl-3 offset-xl-1">
                                 <div class="form-group"><label></label><input class="form-control" type="text" placeholder="CNPJ"></div>
@@ -193,14 +182,14 @@
                         </div><!-- End: 3-column form row -->
                         <!-- Start: 4-column form row -->
                         <div class="form-row">
-                            <div class="col-sm-3 col-xl-3 offset-xl-1">
+                            <div div class="col-sm-4 offset-xl-1">
                                 <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Serviço"></div>
                             </div>
                             <div class="col-sm-3 col-xl-1">
-                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar"></div>
+                                <div class="form-group"></div>
                             </div>
                             <div class="col-sm-3 col-xl-3">
-                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar"></div>
+                                <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Site"></div>
                             </div>
                             <div class="col-xl-1"><select class="form-control" style="margin: 23px;margin-right: 0px;margin-bottom: 0px;margin-left: 0px;" required="">
                                     <optgroup label="Situação">

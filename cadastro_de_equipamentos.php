@@ -5,11 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Blank Page - Brand</title>
-    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
-    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
-    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
-    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
-    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/teste-padrão-sem-emenda-das-auto-peças-sobresselentes-68735972.jpg?h=a002dd0d4fa7f57eb26a5036bc012b90">
+    <link rel="icon" type="image/jpeg" sizes="800x800" href="/assets/img/1.gif?h=a002dd0d4fa7f57eb26a5036bc012b90">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=3265483e434712d72c41db9eebc4c8bb">
     <link rel="stylesheet" href="/assets/css/Montserrat.css?h=d6a29779d310462e7fcdde7b9a80e0db">
     <link rel="stylesheet" href="/assets/css/Nunito.css?h=5f41e73f827c7b56616237a1da13b6e2">
@@ -153,7 +149,7 @@
                             <li class="nav-item dropdown no-arrow">
                                 <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small">Eduardo Gomes</span><img class="border rounded-circle img-profile" src="/assets/img/avatars/Captura%20de%20Tela%202021-08-04%20às%2012.25.13.png?h=fcfb924f0ac1ab5f595f029bf526e62d"></a>
                                     <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>Perfil</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>Configuraçoes</a><a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>Desativar conta</a>
-                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Sair</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="login.php"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;Sair</a>
                                     </div>
                                 </div>
                             </li>
@@ -179,6 +175,7 @@
                                         <option value="">Multifuncional</option>
                                         <option value="">Telefone</option>
                                         <option value="">Etiquetadora</option>
+                                        <option value="">MS365</option>
                                     </optgroup>
                                 </select></div>
                         </div>
@@ -204,7 +201,7 @@
                     <!-- Start: 3-column form row -->
                     <div class="form-row" style="height: 80px;">
                         <div class="col-sm-4 col-xl-2 offset-xl-1">
-                            <div class="form-group"><input class="form-control" type="text" placeholder="Mudar" required="" style="margin-top: 24px;"></div>
+                            <div class="form-group"><input class="form-control" type="text" placeholder="MAC Adress" required="" style="margin-top: 24px;"></div>
                         </div>
                         <div class="col-sm-4 col-xl-1"><select class="form-control" required="" style="margin-top: 24px;">
                                 <optgroup label="Situação">
@@ -212,9 +209,10 @@
                                     <option value="">Inativo</option>
                                 </optgroup>
                             </select></div>
-                        <div class="col-xl-1"><input class="form-control" type="number" placeholder="Mudar" min="0" max="999999999" required="" style="margin-top: 24px;"></div>
+                        <div class="col-xl-1"><input class="form-control" type="date" placeholder="Data de Entrada" required="" style="margin-top: 24px;"></div>
+                        
                         <div class="col-sm-6 col-xl-4 offset-xl-1">
-                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Mudar" required=""></div>
+                            <div class="form-group"><label></label><input class="form-control" type="text" placeholder="Centro de custo" required=""></div>
                         </div>
                     </div><!-- End: 3-column form row -->
                     <!-- Start: 3-column form row -->
