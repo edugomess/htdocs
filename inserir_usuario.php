@@ -19,7 +19,8 @@ $situacao = $_POST['situacao'];
 echo $nome;                                                                    
 
 
-
-
+$sql = "INSERT INTO 'usuário'( '', '', '' ,'', '', '')
+    VALUES  ($, '$ ','$ ','$ ','$ ','$ ')";
 
 ?>
+
